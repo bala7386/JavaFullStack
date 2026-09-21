@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class SumOfoddNumbers
+{
+	public static void main(String [] args)
+{
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter the m value....");
+	int m=sc.nextInt();
+	System.out.println("enter the n value....");
+	int n=sc.nextInt();
+	int sum=0;
+	System.out.println("sum of odd numbers from"+ m + "to" + n);
+	for (int i=m;i<=n;i++)
+{
+	sum=sum+i;
+}
+	System.out.println(" only odd number="+sum);
+
+}
+}
