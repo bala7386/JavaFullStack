@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class FactorOfEvenDigit
+{
+	public static void main(String [] args)
+{
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter the number...");
+	int num=sc.nextInt();
+
+	while(num!=0)
+{
+	int ld=num%10;
+	if(ld%2==0)
+{
+	System.out.println("factors of :" +ld);
+	for(int i=1;i<=num;i++)
+{
+	if(i%2==0)
+	System.out.println(i);
+}
+}
+	num=num/10;
+}
+}
+}
